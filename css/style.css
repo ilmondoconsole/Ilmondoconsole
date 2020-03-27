@@ -1,0 +1,89 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+
+nav ul a,
+nav .brand-logo {
+  color: #white;
+}
+body .brand-logo {font-family: 'Gloria Hallelujah', cursive;}
+body {font-family: 'Neucha', cursive;}
+
+p {
+  line-height: 2rem;
+}
+nav .nav-wrapper {
+   padding: 0 50px;background-color: #757575;
+}
+
+}
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 50%;
+  }
+
+nav .brand-logo {
+  color: #white; width: 75% 
+  }
+  nav .nav-wrapper {
+   padding: 0 0px;background-color: #757575;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+.section-registrazione {
+  width: 100%;
+  height: 100%;
+}
+
+.registrazione-icon {font-size: 7em; margin-top: 60px }
+
+.btn-registrazione {width: 50%; font-size: 13px; }
+
+.btn, .btn-large, .btn-small, .btn-flat {border-radius: 25px;}
+
+
+footer.page-footer {
+  margin: 0;background-color: #757575;
+}
+.social-icon {font-size: 1.5em;
+color: #fff; 
+padding: 0 20px}
+
+.social-icon:hover {
+  color: #ef3550;}
